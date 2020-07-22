@@ -57,3 +57,71 @@ section#about p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
+
+/**
+ * login
+ */
+section#login {
+    padding: 200px 0;
+}
+
+section#login h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+section#login ul {
+    list-style-type: none;
+}
+
+section#login ul > li .border {
+    border: 1px solid red;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+section#login ul > li .border img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section#login ul > li .border p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/**
+ * footer
+ */
+footer {
+    background: black;
+    padding: 2rem;
+    text-align: right;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul > li {
+    margin-left: 1.5rem;
+}
+
+footer ul > li > a {
+    color: white;
+}
+
+footer ul > li > a:hover {
+    color: white;
+}
+
+footer .copyright p {
+    margin-bottom: 0;
+}
